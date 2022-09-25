@@ -20,8 +20,8 @@
   "browser_action": {
     "default_icon": "icons/fticon48.png",
     "default_title": "FocusTimer",
-    "default_popup": "popup/focustimer.html"
-  },
+    "default_popup": "popup/focus_timer.html"
+  }
 
 }
 
