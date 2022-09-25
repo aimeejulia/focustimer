@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "FocusTimer",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to open a simple no nonsense timer for focused work sessions.",
+  
+  "homepage_url": "https://github.com/aimeejulia/focustimer",
+
+  "icons": {
+    "48": "icons/fticon48.png",
+    "96": "fticon96.png"
+  },
+  
+   "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/fticon48.png",
+    "default_title": "FocusTimer",
+    "default_popup": "popup/focustimer.html"
+  },
+
+}
+
