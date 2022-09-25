@@ -1,0 +1,88 @@
+
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: darkslateblue;
+    }
+    .popup{
+        background-color: #ffffff;
+        width: 300px;
+        padding: 30px 40px;
+        height: 110px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        display: none;
+        text-align: center;
+    }
+    .popup button{
+        display: block;
+        margin:  0 0 20px auto;
+        background-color: transparent;
+        font-size: 30px;
+        color: darkslateblue;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    #inputs {
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+     }
+
+    #stopgo{
+        width: 70px;
+        height: 50px;
+        position: relative;
+        margin:  0 0 20px auto;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px 0;
+        background-color: darkslateblue;
+        color: white;
+        border-radius: 45px;
+        border-width: 0ch;
+    }
+    #stopgo:hover{
+        box-shadow: 0 0 10px 0 darkslateblue inset, 0 0 10px 4px darkslateblue;
+    }
+
+
+    p {
+        font-size: xx-large;
+        width: 15px;
+    }
+    
+    input[type="number"] {
+        font-size: xx-large;
+        width: 40px;
+        height: 50px;
+        border: none;
+        align-content: center;
+      }
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance: textfield;
+    }
+  
+
+
+    /*css code adapted from here: https://codingartistweb.com/2021/08/show-popup-automatically-after-page-load-using-javascript/ */
